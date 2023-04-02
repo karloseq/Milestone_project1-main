@@ -1,0 +1,296 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+nav {
+  background-color: gray;
+}
+
+.float-heading {
+  float: left;
+}
+
+.home-footer {
+  position: static !important;
+}
+
+.home-video {
+  height: 400px;
+  width: auto;
+
+  text-align: center;
+  margin-bottom: 30px;
+}
+.video-sec {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style: none;
+
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  font-size: 1.2em;
+  line-height: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.below-margin {
+  padding-bottom: 150px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: rgb(248, 12, 12);
+}
+
+.fa {
+  padding: 18px;
+  font-size: 28px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #4e5564;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3b5998;
+  color: white;
+}
+
+footer {
+  /* height: 110px; */
+  margin-top: 60px !important;
+  background-color: gray;
+  box-sizing: border-box;
+  padding: 1.2em;
+  text-align: center;
+  width: 100%;
+  /* position: fixed; */
+  bottom: 0;
+  right: 0;
+}
+
+.newsletter-input {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid chocolate;
+  outline: none;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.Paragraph1 {
+  padding: 0 250px !important;
+}
+
+.picture-heading {
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: inline;
+}
+
+.single-video-main {
+  width: 50%;
+  height: auto;
+}
+
+.video-footer {
+  position: static !important;
+}
+
+.single-video h4 {
+  margin: 10px 0;
+}
+
+.sbs {
+  position: fixed;
+  bottom: 0;
+}
+.about-head {
+  margin-top: 20px;
+  padding: 0 250px;
+}
+.photos-heading {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 2rem;
+}
+.img-with-text {
+  text-align: center;
+}
+.img-with-text img {
+  width: 96% !important;
+}
+.single-video {
+  text-align: center;
+  margin: 20px 0;
+}
+.single-video-main {
+  width: 96% !important;
+  margin: 0 auto;
+}
+.single-video h4 {
+  text-align: center;
+}
+@media (max-width: 950px) {
+  .Paragraph1 {
+    padding: 0 30px !important;
+  }
+  .about-head {
+    margin-top: 20px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-with-text img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .single-video-main {
+    width: 71%;
+    height: auto;
+  }
+  .home-video {
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .Paragraph1 {
+    padding: 0;
+  }
+  .Paragraph1 {
+    padding: 0 15px !important;
+  }
+  .about-head {
+    padding: 0 30px;
+  }
+  .fix-footer {
+    position: fixed !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .consisit {
+    height: 225px;
+  }
+  body {
+    position: relative;
+    min-height: 100vh;
+  }
+  .fix-footer {
+    position: absolute !important;
+    bottom: 0;
+  }
+  .sticked {
+    position: fixed !important;
+  }
+  .float-heading {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home-video {
+    width: 90vw;
+  }
+
+  .social-icons {
+    display: flex;
+    text-align: center;
+    margin: 10px 0;
+    justify-content: center;
+  }
+
+  .social-icons .fa {
+    margin: 0 5px;
+  }
+
+  footer {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .photos-footer {
+    position: static;
+    height: auto;
+    margin: 0 !important;
+  }
+
+  .below-margin {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 470px) {
+  nav li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .fa {
+    width: 30px;
+  }
+}
+
+.aboutparagraph {
+  margin-top: 2%;
+}
