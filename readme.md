@@ -65,8 +65,7 @@ Website created for anyone who is interested about running and would like to see
 ![Mock-up-Image](Pictures/balasamic.jpg)
 ![Mock-up-Image](Pictures/balasamic1.jpg)
 ![Mock-up-Image](Pictures/balasamic2.jpg)
-![Mock-up-Image](Pictures/balasamic3.jpg)
-![Mock-up-Image](Pictures/balasamic4.jpg)
+![Mock-up-Image](Pictures/balasamic3.jpg) 
 
 
 
